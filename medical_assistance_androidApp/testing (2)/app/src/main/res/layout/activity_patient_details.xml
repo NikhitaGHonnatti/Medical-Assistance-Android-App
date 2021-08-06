@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PatientDetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/purple_700"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvPID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#FEFEFF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#FFFFFF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:autoText="false"
+            android:background="#F7F7F8"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#F6FAFA"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#F9FBFC"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#FFFFFF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvSymptoms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#FFFFFF"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/etComment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Enter Comment"
+            android:inputType="textMultiLine"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnAddComment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/button_common_style"
+            android:text="ADD COMMENT"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnAllComments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/button_common_style"
+            android:text="View All Comments"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnAddPres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/button_common_style"
+            android:text="Add Prescription"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnAllPres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/button_common_style"
+            android:text="View All Prescriptions"
+            android:textSize="14sp" />
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

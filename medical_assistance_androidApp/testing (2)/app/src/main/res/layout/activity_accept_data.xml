@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AcceptData">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/purple_700"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/etpid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:hint="Enter Patient's Full Name"
+            android:textColor="@color/white"
+            android:textColorHint="#FFFFFF"
+            android:textSize="24sp" />
+
+
+        <EditText
+            android:id="@+id/etAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:hint="Enter Patient's Age"
+            android:inputType="date"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="#FFFFFF"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:hint="Enter Patient's Weight (in kgs)"
+            android:inputType="numberDecimal"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="#FFFFFF"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:hint="Enter Patient's Height (in m)"
+            android:inputType="numberDecimal"
+            android:singleLine="false"
+            android:textColor="@color/white"
+            android:textColorHint="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Spinner
+            android:id="@+id/spGender"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#F8F7F7"
+            android:entries="@array/gender"
+            android:spinnerMode="dropdown" />
+
+        <EditText
+            android:id="@+id/etsymptoms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:hint="Enter Symptoms"
+            android:inputType="textPersonName"
+            android:singleLine="false"
+            android:textColor="@color/white"
+            android:textColorHint="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnAddPatient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="60dp"
+            android:background="@drawable/btn_rounded"
+            android:text="SUBMIT"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

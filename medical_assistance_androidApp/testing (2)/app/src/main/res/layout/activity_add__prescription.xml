@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_Prescription">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/etMedName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Enter Medication Name"
+            android:inputType="textMultiLine"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etPerDay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="30dp"
+            android:ems="10"
+            android:hint="Enter dosage per day (1,2,3....)"
+            android:inputType="number"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etDays"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="30dp"
+            android:ems="10"
+            android:hint="Number of Days"
+            android:inputType="number"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnAddPrescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/btn_rounded"
+            android:text="ADD PRESCRIPTION"
+            android:textSize="24sp" />
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
