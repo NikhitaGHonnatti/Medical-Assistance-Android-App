@@ -4,7 +4,7 @@ The aim of the project is to build an intelligent appointment booking system whi
 
 <img src="https://user-images.githubusercontent.com/66821281/128492630-8d4e486d-1cdb-4f7f-9956-a78788bfb142.png" width="300">
 
-This the Signup or login page where the doctors can login with their credentials and the patients can register and login.
+This is the Signup or login page where the doctors can login with their credentials and the patients can register and login.
 
 
 
